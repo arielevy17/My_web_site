@@ -1,0 +1,24 @@
+.allFrame{
+    font-size:x-large;
+
+    background-size:inherit ;
+    background-position: center;
+    color: white;
+}
+input{
+  border-color: black;
+    padding: 10px;
+    border-radius: 3px;
+    border: 5px;
+    transition: border-top-color 0.3s ease-in-out;
+}
+input:focus{
+    border-color: white;
+}
+.costumerDeatels{
+  font-weight: bold;
+}
+body{
+    background-image: radial-gradient(white 5%, transparent 0), url('https://cdn.pixabay.com/photo/2019/12/17/18/03/space-4708573_960_720.jpg');
+    background-size: 15px 15px, cover;
+}

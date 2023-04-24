@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+
+
+}
+.paragraph_1{
+    color: white;
+    text-align: center;
+    animation: slow-text 5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes slow-text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

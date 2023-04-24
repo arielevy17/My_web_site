@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.Top {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: #82009f;
+    background: -moz-linear-gradient(left,  #82009f 0%, #5d34af 50%, #00ceab 100%);
+    background: -webkit-linear-gradient(left,  #82009f 0%,#5d34af 50%,#00ceab 100%);
+    background: linear-gradient(to right,  #82009f 0%,#5d34af 50%,#00ceab 70%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    margin-right: 100px;
+    margin: 23px;
+    text-align: right;
+    color:white ;
+    text-decoration: none;
+    padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover{
+    text-decoration: underline;
+}
+select:hover{
+    text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+select:hover option {
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+select{
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    background-color: unset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-left: -50px;
+
+
+}
+option{
+    font-weight: bold;
+    color: dimgray;
+}
+.fa-home{
+    color: white;
+    text-align: right;
+    margin: -20px;
+}
+.fa-hammer{
+    color: white;
+    text-align: left;
+    margin-left: -47px;
+}
+.fa-info-circle{
+    color: white;
+    text-align: left;
+    margin: 4px;
+}
+.fa-newspaper{
+    color: white;
+    text-align: left;
+    margin: 4px;
+}
+.fa-phone{
+    color: white;
+    text-align: left;
+    margin: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content{
+    font-size: 23px;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg");
+    background-size:cover ;
+    color: white;
 }
+
+.logo{
+    background-image: url("G.N.png.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 205px;
+    height: 195px;
+}
+
+.contact{
+    color: white;
+    font-weight: bold;
+
+}
+input{
+    margin-right: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+
+}
+
+body{
+    background: white;
+}
+
+
+
+
